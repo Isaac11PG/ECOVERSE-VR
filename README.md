@@ -58,27 +58,42 @@ Players explore virtual indoor and city environments, completing mission briefin
 - **Project Initiative:** EcoVerse VR — *Aprende. Actúa. Salva tu ciudad.*
 - ---
 
-## 📲 Download & Installation Guide (Android APK)
+---
 
-Follow these simple steps to install and run the standalone `.apk` build directly on your Android mobile device:
+## 🥽 Installation & Deployment Guide for Meta Quest 2 / 3 (.apk)
 
-### Step 1: Download the Application
-- Locate the **Releases** section on the right sidebar of this GitHub repository.
-- Click on the latest release tag (e.g., `v1.0.0`).
-- Under the **Assets** dropdown, download the file ending in `.apk` (e.g., `app-release.apk`) directly to your Android device[cite: 2].
-  > *Alternatively: Download it onto your computer and transfer the `.apk` file to your phone's storage via USB or cloud drive.*
+EcoVerse VR is compiled as an Android package (`.apk`) optimized for standalone VR execution on Meta Quest 2 and Meta Quest 3 headsets via SideQuest or Meta Quest Developer Hub (MQDH)[cite: 3].
 
-### Step 2: Enable Unknown App Installations
-Android restricts sideloading apps outside Google Play by default. To proceed:
-1. Open your device's **Settings** (`Ajustes`).
-2. Navigate to **Security & Privacy** > **Install Unknown Apps** (or search for *"Install unknown apps"* in the settings search bar).
-3. Find the browser or file manager you used to download the file (e.g., **Chrome** or **My Files / Mis Archivos**).
-4. Toggle the switch to **Allow from this source** (`Permitir desde esta fuente`).
+### Prerequisites
+1. **Developer Mode Enabled on Meta Quest:**
+   - Open the **Meta Quest** app on your smartphone.
+   - Go to **Menu** > **Devices** > select your Meta Quest headset.
+   - Navigate to **Headset Settings** > **Developer Mode** and toggle it **ON**.
+2. **SideQuest installed on PC / Mac:** Download and install [SideQuest Advanced Installer](https://sidequestvr.com/setup-howto).
+3. **USB-C Data Cable:** Connect your headset to your computer.
 
-### Step 3: Run the Installer
-1. Open your phone's **Files / Downloads** app and tap on the downloaded `.apk` file.
-2. When prompted by the system dialog, tap **Install** (`Instalar`).
-3. If **Google Play Protect** displays a warning (*"Unrecognized developer"*), tap **More details** (`Más detalles`) followed by **Install anyway** (`Instalar de todas formas`).
+---
 
-### Step 4: Open and Launch
-- Once the installation finishes, tap **Open** (`Abrir`) or find the application icon on your home screen or app drawer to start using the app.
+### Step 1: Download the VR Build
+- Go to the **Releases** section on the right sidebar of this GitHub repository.
+- Download the latest compiled VR build file: `EcoVerse_VR_vX.X.apk`.
+
+---
+
+### Step 2: Install via SideQuest (Recommended)
+1. Launch **SideQuest** on your computer.
+2. Connect your Meta Quest headset to the PC using the USB-C cable.
+3. Put on the headset and accept the prompt: **"Allow USB Debugging"** (check *Always allow from this computer*).
+4. Verify that the indicator dot in the top-left corner of SideQuest turns **Green** (Connected).
+5. Click on the icon labeled **"Install APK file from folder on computer"** (an icon showing a box with a down arrow in the top header).
+6. Select the downloaded `EcoVerse_VR_vX.X.apk` file.
+7. Wait until the bottom status bar confirms: *"All tasks completed successfully"*.
+
+---
+
+### Step 3: Launch EcoVerse VR in Headset
+1. Put on your Meta Quest headset.
+2. Open the main **App Library** grid.
+3. Click on the dropdown menu in the upper-right corner (currently set to *All* or *Installed*).
+4. Scroll down and select **Unknown Sources** (`Fuentes Desconocidas`).
+5. Tap on **EcoVerse VR** to launch the interactive serious game experience.
